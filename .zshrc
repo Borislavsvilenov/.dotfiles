@@ -81,8 +81,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 source $ZSH/oh-my-zsh.sh
 
-alias vim=nvim
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
