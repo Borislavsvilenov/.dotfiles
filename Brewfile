@@ -1,0 +1,5 @@
+tap "homebrew/bundle"
+brew "neovim"
+brew "node"
+brew "sfml"
+cask "iterm2"
