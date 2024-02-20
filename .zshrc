@@ -84,7 +84,7 @@ alias la='ls -a'
 alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*'"
 alias dir='pwd'
 
-pushA() {
+pushAll() {
   echo "message: $1"
   git add -A
   git commit -m "$1"
