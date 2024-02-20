@@ -81,9 +81,15 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 alias cls='clear'
 alias la='ls -a'
-alias pushA='git add -A; git commit -m "commiting all"; git push'
 alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*'"
 alias dir='pwd'
+
+pushA() {
+  echo "message: $1"
+  git add -A
+  git commit -m "$1"
+  git push
+}
 
 source $ZSH/oh-my-zsh.sh
 
