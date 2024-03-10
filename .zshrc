@@ -81,7 +81,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 alias cls='clear'
-alias la='ls -a'
+alias la='ls -al'
 alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*'"
 alias dir='pwd'
 
