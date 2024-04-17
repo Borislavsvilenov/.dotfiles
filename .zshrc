@@ -80,7 +80,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
-alias cls='clear'
+alias cls='clear'; 'clear'
 alias la='ls -al'
 alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*'"
 alias dir='pwd'
