@@ -11,6 +11,7 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.dotfiles/.oh-my-zsh"
 export VCPKG_ROOT="$HOME/vcpkg"
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
