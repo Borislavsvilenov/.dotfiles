@@ -84,6 +84,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 alias la='ls -al'
 alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*'"
 alias dir='pwd'
+alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
+
 
 pushAll() {
   echo "message: $1"
@@ -99,6 +101,7 @@ cls() {
 }
 
 source $ZSH/oh-my-zsh.sh
+eval "$(fzf --zsh)"
 
 # User configuration
 
