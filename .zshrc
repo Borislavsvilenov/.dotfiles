@@ -12,6 +12,8 @@ fi
 export ZSH="$HOME/.dotfiles/.oh-my-zsh"
 export VCPKG_ROOT="$HOME/vcpkg"
 export XDG_CONFIG_HOME="$HOME/.config"
+export PATH="$HOME/.local/bin:$PATH"
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:/opt/homebrew/Cellar/
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -130,3 +132,6 @@ eval "$(fzf --zsh)"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+
+# Created by `pipx` on 2024-06-19 15:49:25
+export PATH="$PATH:/Users/borislavsvilenov/.local/bin"
