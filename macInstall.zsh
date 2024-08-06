@@ -2,10 +2,13 @@ echo "installing brew"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/malcho/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 echo "brew installed"
 echo "installing apps"
 
-brew bundle --file=~/.dotfiles/Brewfile
+brew bundle install --file=~/.dotfiles/Brewfile
 
 echo "apps installed"
 echo "creating symlinks"
