@@ -14,12 +14,14 @@ export VCPKG_ROOT="$HOME/vcpkg"
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$HOME/.local/bin:$PATH"
 export C_INCLUDE_PATH=$C_INCLUDE_PATH:/opt/homebrew/Cellar/
+export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+export CPATH=/usr/local/include
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="gozilla"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -135,3 +137,4 @@ eval "$(fzf --zsh)"
 
 # Created by `pipx` on 2024-06-19 15:49:25
 export PATH="$PATH:/Users/borislavsvilenov/.local/bin"
+export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
