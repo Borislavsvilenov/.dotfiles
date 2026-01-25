@@ -90,7 +90,6 @@ alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*'"
 alias dir='pwd'
 alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
 
-
 pushAll() {
   echo "message: $1"
   git add -A
